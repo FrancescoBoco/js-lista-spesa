@@ -31,10 +31,10 @@ while (index < list.length){
 
     // shoppingList.append(myLi + list[index])
     const myLi = document.createElement('li') 
-    // myLi.innerHTML = list[index];
+    myLi.innerHTML = list[index];
     // 
     shoppingList.append(myLi)
-    myLi.append(list[index])
+    //myLi.append(list[index])
 
     index++
 
